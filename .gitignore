@@ -1,0 +1,13 @@
+# Local Claude Code settings (machine-specific permissions)
+.claude/settings.local.json
+
+# Suspect-output dumps from failed/corrupted generations
+ollama-bench-suspect-output_*.txt
+
+# the generated results
+ollama-gpu-bench-log.csv
+ollama-gpu-bench-soak-log.csv
+
+# OS cruft
+Thumbs.db
+desktop.ini
